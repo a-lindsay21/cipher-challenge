@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cipher Challenge</title>
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Caveat&family=Lora&family=Share+Tech+Mono&family=Source+Sans+Pro&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<footer id="credit-tag">
+  <p>Designed and Coded by Antanya Lindsay</p>
+  <p>Find me on GitHub at a-lindsay21</p>
+</footer>
+
+<body>
+   <div class="controls">
+  <div class="control-group">
+    <label for="theme-select">Choose a theme:</label>
+    <select id="theme-select" onchange="applyTheme()">
+      <option value="dark">Dark</option>
+      <option value="light">Light</option>
+      <option value="hacker">Hacker</option>
+      <option value="forest">Forest</option>
+      <option value="pastel">Pastel</option>
+    </select>
+  </div>
+
+  <div class="control-group">
+    <label for="difficulty-select">Choose difficulty:</label>
+    <select id="difficulty-select" onchange="loadNewPuzzle()">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
+</div>
+
+  <h1>Cipher Challenge</h1>
+  <p id="timer">Time: 0s</p>
+  <p id="score">Score: 0</p>
+  <p id="cipher-text">Encrypted message here...</p>
+
+  <input type="text" id="user-input" placeholder="Type your guess...">
+  <button onclick="checkAnswer()">Submit</button>
+  <br><br>
+<button onclick="loadNewPuzzle()">New Puzzle</button>
+<button onclick="showHint()">Hint</button>
+<p id="hint-text"></p>
+
+
+  <p id="result-message"></p>
+
+<h3>Your Notes</h3>
+<textarea id="user-notes" placeholder="Type any notes or ideas here..."></textarea>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

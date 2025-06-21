@@ -1,0 +1,176 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #111;
+  color: #eee;
+  text-align: center;
+  padding: 50px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+#result-message {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+body.light {
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+body.dark {
+  background-color: #111;
+  color: #eee;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  transition: all 0.3s ease;
+}
+/* Shared styles */
+body {
+  font-family: 'Courier New', monospace;
+  transition: all 0.3s ease;
+  text-align: center;
+  padding: 50px;
+}
+
+input, button, select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+/* DARK THEME */
+body.dark {
+  background-color: #111;
+  color: #eee;
+}
+
+/* LIGHT THEME */
+body.light {
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+/* HACKER THEME */
+body.hacker {
+  background-color: #0f0f0f;
+  color: #00ff00;
+}
+
+/* FOREST THEME */
+body.forest {
+  background-color: #2e3d2f;
+  color: #d7f7d0;
+}
+
+/* PASTEL THEME */
+body.pastel {
+  background-color: #fff0f5;
+  color: #6b4e71;
+}
+
+body.dark {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+body.light {
+  background-color: #f9f9f9;
+  color: #111;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body.hacker {
+  background-color: #0f0f0f;
+  color: #00ff00;
+  font-family: 'VT323', monospace;
+}
+
+body.forest {
+  background-color: #2e3d2f;
+  color: #d7f7d0;
+  font-family: 'Lora', serif;
+}
+
+body.pastel {
+  background-color: #fff0f5;
+  color: #6b4e71;
+  font-family: 'Comfortaa', cursive;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.control-group {
+  margin-bottom: 10px;
+}
+
+#credit-tag {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #888;
+  font-style: italic;
+}
+
+
+#hint-text {
+  margin-top: 15px;
+  font-size: 14px;
+  font-style: italic;
+  color: #888;
+}
+
+textarea#user-notes {
+  width: 80%;
+  height: 120px;
+  margin-top: 15px;
+  font-size: 14px;
+  padding: 10px;
+  resize: vertical;
+  font-family: inherit;
+  background-color: #222;
+  color: #eee;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+body.light textarea#user-notes {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+body.hacker textarea#user-notes {
+  background-color: #000;
+  color: #00ff00;
+  border-color: #00ff00;
+}
+
+body.forest textarea#user-notes {
+  background-color: #364a39;
+  color: #d7f7d0;
+  border-color: #a5d6a7;
+}
+
+body.pastel textarea#user-notes {
+  background-color: #ffeef7;
+  color: #6b4e71;
+  border-color: #dabcd9;
+}
